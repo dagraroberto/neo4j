@@ -1,0 +1,1647 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 0,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+            }
+          },
+          "relationship": {
+"identity": 0,
+"start": 0,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 28,
+"labels": [
+          "Client"
+        ],
+"properties": {
+"name": "Dagra Robert",
+"id": 1,
+"email": "dagra@gmail.com"
+        }
+      },
+"end": {
+"identity": 0,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 28,
+"labels": [
+              "Client"
+            ],
+"properties": {
+"name": "Dagra Robert",
+"id": 1,
+"email": "dagra@gmail.com"
+            }
+          },
+          "relationship": {
+"identity": 1,
+"start": 28,
+"end": 0,
+"type": "LOUE",
+"properties": {
+"end_date": 1673819509163,
+"start_date": 1673819509163
+            }
+          },
+          "end": {
+"identity": 0,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Hamaya",
+"id": 2
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Hamaya",
+"id": 2
+            }
+          },
+          "relationship": {
+"identity": 2,
+"start": 1,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 2,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 3
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 3
+            }
+          },
+          "relationship": {
+"identity": 3,
+"start": 2,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 3,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 4
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 3,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 4
+            }
+          },
+          "relationship": {
+"identity": 4,
+"start": 3,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 4,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 5
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 4,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 5
+            }
+          },
+          "relationship": {
+"identity": 5,
+"start": 4,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 6
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 6
+            }
+          },
+          "relationship": {
+"identity": 6,
+"start": 5,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 6,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 7
+        }
+      },
+"end": {
+"identity": 24,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 6,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 7
+            }
+          },
+          "relationship": {
+"identity": 7,
+"start": 6,
+"end": 24,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Paris",
+"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+"name": "Eiffel Tower Station",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 7,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 8
+        }
+      },
+"end": {
+"identity": 25,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 7,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 8
+            }
+          },
+          "relationship": {
+"identity": 8,
+"start": 7,
+"end": 25,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 8,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 9
+        }
+      },
+"end": {
+"identity": 25,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 8,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 9
+            }
+          },
+          "relationship": {
+"identity": 9,
+"start": 8,
+"end": 25,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 9,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 10
+        }
+      },
+"end": {
+"identity": 25,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 9,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 10
+            }
+          },
+          "relationship": {
+"identity": 10,
+"start": 9,
+"end": 25,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Lyon",
+"address": "133 boulevard de la Croix Rousse, 69004 Lyon",
+"name": "Fmille Dagra Station",
+"id": 2
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 10,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 11
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 10,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 11
+            }
+          },
+          "relationship": {
+"identity": 11,
+"start": 10,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 11,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 12
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 11,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 12
+            }
+          },
+          "relationship": {
+"identity": 12,
+"start": 11,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 12,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 13
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 13
+            }
+          },
+          "relationship": {
+"identity": 13,
+"start": 12,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 13,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 14
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 14
+            }
+          },
+          "relationship": {
+"identity": 14,
+"start": 13,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 14,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de route",
+"model": "Roadster",
+"id": 15
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 14,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de route",
+"model": "Roadster",
+"id": 15
+            }
+          },
+          "relationship": {
+"identity": 15,
+"start": 14,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 15,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Roadster",
+"id": 16
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 15,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Roadster",
+"id": 16
+            }
+          },
+          "relationship": {
+"identity": 16,
+"start": 15,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 16,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 17
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 16,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de montagne",
+"model": "Hamaya",
+"id": 17
+            }
+          },
+          "relationship": {
+"identity": 17,
+"start": 16,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 17,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 18
+        }
+      },
+"end": {
+"identity": 26,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 18
+            }
+          },
+          "relationship": {
+"identity": 18,
+"start": 17,
+"end": 26,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Troyes",
+"address": "Place Alexandre-Israël, 10000 TROYES",
+"name": "UTT MS EBDE Station",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 18,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 19
+        }
+      },
+"end": {
+"identity": 27,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Mantes la jolie",
+"address": "31 Rue Gambetta, 78200 Mantes la jolie",
+"name": "Timaelle Maelle Keke Station",
+"id": 4
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 18,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Roadster",
+"id": 19
+            }
+          },
+          "relationship": {
+"identity": 19,
+"start": 18,
+"end": 27,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 27,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Mantes la jolie",
+"address": "31 Rue Gambetta, 78200 Mantes la jolie",
+"name": "Timaelle Maelle Keke Station",
+"id": 4
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 19,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 20
+        }
+      },
+"end": {
+"identity": 27,
+"labels": [
+          "Station"
+        ],
+"properties": {
+"ville": "Mantes la jolie",
+"address": "31 Rue Gambetta, 78200 Mantes la jolie",
+"name": "Timaelle Maelle Keke Station",
+"id": 4
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 19,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 20
+            }
+          },
+          "relationship": {
+"identity": 20,
+"start": 19,
+"end": 27,
+"type": "LOCATION_A",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 27,
+"labels": [
+              "Station"
+            ],
+"properties": {
+"ville": "Mantes la jolie",
+"address": "31 Rue Gambetta, 78200 Mantes la jolie",
+"name": "Timaelle Maelle Keke Station",
+"id": 4
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 29,
+"labels": [
+          "Client"
+        ],
+"properties": {
+"name": "John Doe",
+"id": 2,
+"email": "john@example.com"
+        }
+      },
+"end": {
+"identity": 1,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Hamaya",
+"id": 2
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 29,
+"labels": [
+              "Client"
+            ],
+"properties": {
+"name": "John Doe",
+"id": 2,
+"email": "john@example.com"
+            }
+          },
+          "relationship": {
+"identity": 21,
+"start": 29,
+"end": 1,
+"type": "LOUE",
+"properties": {
+"end_date": 1673823132121,
+"start_date": 1673823132121
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "S",
+"name": "Vélo de route",
+"model": "Hamaya",
+"id": 2
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 31,
+"labels": [
+          "Client"
+        ],
+"properties": {
+"name": "Dagra Sonia",
+"id": 4,
+"email": "dagra@example.com"
+        }
+      },
+"end": {
+"identity": 2,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 3
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 31,
+"labels": [
+              "Client"
+            ],
+"properties": {
+"name": "Dagra Sonia",
+"id": 4,
+"email": "dagra@example.com"
+            }
+          },
+          "relationship": {
+"identity": 22,
+"start": 31,
+"end": 2,
+"type": "LOUE",
+"properties": {
+"end_date": 1673823132265,
+"start_date": 1673823132265
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 3
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 34,
+"labels": [
+          "Client"
+        ],
+"properties": {
+"name": "Elysee N'goran",
+"id": 7,
+"email": "elysee@example.com"
+        }
+      },
+"end": {
+"identity": 19,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 20
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 34,
+"labels": [
+              "Client"
+            ],
+"properties": {
+"name": "Elysee N'goran",
+"id": 7,
+"email": "elysee@example.com"
+            }
+          },
+          "relationship": {
+"identity": 23,
+"start": 34,
+"end": 19,
+"type": "LOUE",
+"properties": {
+"end_date": 1673823132397,
+"start_date": 1673823132397
+            }
+          },
+          "end": {
+"identity": 19,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo électrique",
+"model": "Hamaya",
+"id": 20
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 38,
+"labels": [
+          "Client"
+        ],
+"properties": {
+"name": "Amea David",
+"id": 11,
+"email": "amea@example.com"
+        }
+      },
+"end": {
+"identity": 0,
+"labels": [
+          "Velo"
+        ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 38,
+"labels": [
+              "Client"
+            ],
+"properties": {
+"name": "Amea David",
+"id": 11,
+"email": "amea@example.com"
+            }
+          },
+          "relationship": {
+"identity": 24,
+"start": 38,
+"end": 0,
+"type": "LOUE",
+"properties": {
+"end_date": 1673823449736,
+"start_date": 1673823449736
+            }
+          },
+          "end": {
+"identity": 0,
+"labels": [
+              "Velo"
+            ],
+"properties": {
+"size": "M",
+"name": "Vélo de montagne",
+"model": "Roadster",
+"id": 1
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  }
+]
