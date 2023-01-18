@@ -1,0 +1,80 @@
+NEO4J
+
+// 1- Pour créer nœud vélo :
+
+	CREATE (v:Velo {id: 1, name: "Vélo de montagne", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 2, name: "Vélo de route", model: "Hamaya", size: "S"});
+	CREATE (v:Velo {id: 3, name: "Vélo électrique", model: "Hamaya", size: "M"});
+	CREATE (v:Velo {id: 4, name: "Vélo de montagne", model: "Hamaya", size: "M"});
+	CREATE (v:Velo {id: 5, name: "Vélo de montagne", model: "Roadster", size: "S"});
+	CREATE (v:Velo {id: 6, name: "Vélo électrique", model: "Roadster", size: "S"});
+	CREATE (v:Velo {id: 7, name: "Vélo de montagne", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 8, name: "Vélo de montagne", model: "Hamaya", size: "S"});
+	CREATE (v:Velo {id: 9, name: "Vélo électrique", model: "Hamaya", size: "M"});
+	CREATE (v:Velo {id: 10, name: "Vélo de montagne", model: "Roadster", size: "S"});
+	CREATE (v:Velo {id: 11, name: "Vélo électrique", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 12, name: "Vélo de montagne", model: "Hamaya", size: "S"});
+	CREATE (v:Velo {id: 13, name: "Vélo électrique", model: "Hamaya", size: "M"});
+	CREATE (v:Velo {id: 14, name: "Vélo de montagne", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 15, name: "Vélo de route", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 16, name: "Vélo de route", model: "Roadster", size: "S"});
+	CREATE (v:Velo {id: 17, name: "Vélo de montagne", model: "Hamaya", size: "S"});
+	CREATE (v:Velo {id: 18, name: "Vélo de montagne", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 19, name: "Vélo électrique", model: "Roadster", size: "M"});
+	CREATE (v:Velo {id: 20, name: "Vélo électrique", model: "Hamaya", size: "M"});
+
+// 2- Pour créer nœud emplacement de location :
+	
+	CREATE (s:Station {id: 1, name: "Eiffel Tower Station", address: "Champ de Mars, 5 Avenue Anatole France, 75007 Paris" , ville: "Paris"});
+	CREATE (s:Station {id: 2, name: "Fmille Dagra Station", address: "133 boulevard de la Croix Rousse, 69004 Lyon" , ville: "Lyon"});
+	CREATE (s:Station {id: 3, name: "UTT MS EBDE Station", address: "Place Alexandre-Israël, 10000 TROYES" , ville: "Troyes"});
+	CREATE (s:Station {id: 4, name: "Timaelle Maelle Keke Station", address: "31 Rue Gambetta, 78200 Mantes la jolie" , ville: "Mantes la jolie"});
+	
+
+// 3- Pour créer nœud client :
+
+	CREATE (c:Client {id: 1, name: "Dagra Robert", email: "dagra@gmail.com"});
+    CREATE (c:Client {id: 2, name: "John Doe", email: "john@example.com"});
+    CREATE (c:Client {id: 3, name: "Dark Mir", email: "dark@example.com"});
+    CREATE (c:Client {id: 4, name: "Dagra Sonia", email: "dagra@example.com"});
+    CREATE (c:Client {id: 5, name: "Christelle Gboblahi", email: "christelle@example.com"});
+    CREATE (c:Client {id: 6, name: "Rick N'Dri", email: "rick@example.com"});
+    CREATE (c:Client {id: 7, name: "Elysee N'goran", email: "elysee@example.com"});
+    CREATE (c:Client {id: 8, name: "Koua Yabi", email: "koua@example.com"});
+    CREATE (c:Client {id: 9, name: "N'da Victoire", email: "victoire@example.com"});
+    CREATE (c:Client {id: 10, name: "Mario Jad", email: "mario@example.com"});
+    CREATE (c:Client {id: 11, name: "Amea David", email: "amea@example.com"});
+    CREATE (c:Client {id: 12, name: "Hilair Kouassi", email: "hilair@example.com"});
+
+// 4- Pour créer une relation entre un vélo et un emplacement pour indiquer que le vélo se trouve actuellement à cet emplacement :
+
+	MATCH (v:Velo {id: 1}), (s:Station {id: 1})
+	CREATE (v)-[:LOCATION_A]->(s)
+
+// 5- Pour créer une relation entre un client et un vélo pour indiquer que le client a loué le vélo :
+
+	MATCH (c:Client {id: 1}), (v:Velo {id: 1})
+	CREATE (c)-[:LOUE {start_date: timestamp(), end_date: timestamp()}]->(v)
+
+// 6- Pour trouver tous les vélos disponibles à un emplacement :
+
+	MATCH (s:Station {name: "Eiffel Tower Station"})<-[:LOCATION_A]-(v:Velo)
+	WHERE NOT (v)-[:LOUE]->()
+	RETURN v
+
+// 7- Pour retrouver tout s'historique de location d'un client :
+
+	MATCH (c:Client {name: "John Doe"})-[r:LOUE]->(v:Velo)
+	RETURN v, r
+
+//8- Affichage Clients avec des Alias
+
+	MATCH (s:Client) RETURN s.name AS name, s.email AS email
+
+//9- Affichage Station avec des Alias
+
+	MATCH (n:Station) RETURN n.name AS name, n.address AS address, n.ville AS ville
+
+//10- Affichage nam Velo avec Alias
+ 
+	MATCH (n:Velo) RETURN n.name AS name
